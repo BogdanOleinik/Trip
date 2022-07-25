@@ -7,19 +7,55 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		426DA0BB4872053BD884ECA4 /* Pods_Trip.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FDDAD5A59AF9B92C126192F9 /* Pods_Trip.framework */; };
 		CE945CA6288EE8F40005D7A9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE945CA5288EE8F40005D7A9 /* AppDelegate.swift */; };
-		CE945CAA288EE8F40005D7A9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE945CA9288EE8F40005D7A9 /* ViewController.swift */; };
+		CE945CAA288EE8F40005D7A9 /* AutoRouteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE945CA9288EE8F40005D7A9 /* AutoRouteViewController.swift */; };
 		CE945CAF288EE8F70005D7A9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE945CAE288EE8F70005D7A9 /* Assets.xcassets */; };
 		CE945CB2288EE8F70005D7A9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE945CB0288EE8F70005D7A9 /* LaunchScreen.storyboard */; };
+		CE945CCB288EEFE70005D7A9 /* AnyCellViewModelProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE945CBD288EEFE70005D7A9 /* AnyCellViewModelProtocol.swift */; };
+		CE945CCC288EEFE70005D7A9 /* TableViewCellModelProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE945CBE288EEFE70005D7A9 /* TableViewCellModelProtocol.swift */; };
+		CE945CCD288EEFE70005D7A9 /* Montserrat-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CE945CC0288EEFE70005D7A9 /* Montserrat-Medium.ttf */; };
+		CE945CCE288EEFE70005D7A9 /* Montserrat-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CE945CC1288EEFE70005D7A9 /* Montserrat-Bold.ttf */; };
+		CE945CCF288EEFE70005D7A9 /* Montserrat-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CE945CC2288EEFE70005D7A9 /* Montserrat-SemiBold.ttf */; };
+		CE945CD0288EEFE70005D7A9 /* Montserrat-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CE945CC3288EEFE70005D7A9 /* Montserrat-ExtraBold.ttf */; };
+		CE945CD1288EEFE70005D7A9 /* Montserrat-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CE945CC4288EEFE70005D7A9 /* Montserrat-Black.ttf */; };
+		CE945CD2288EEFE70005D7A9 /* Montserrat-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CE945CC5288EEFE70005D7A9 /* Montserrat-Regular.ttf */; };
+		CE945CD4288EEFE70005D7A9 /* UIColor + hex.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE945CC8288EEFE70005D7A9 /* UIColor + hex.swift */; };
+		CE945CD5288EEFE70005D7A9 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE945CC9288EEFE70005D7A9 /* Colors.swift */; };
+		CE945CD8288EF16A0005D7A9 /* AutoRouteViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE945CD7288EF16A0005D7A9 /* AutoRouteViewModel.swift */; };
+		CE945CDA288EF1DA0005D7A9 /* AutoRouteImageViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE945CD9288EF1DA0005D7A9 /* AutoRouteImageViewCell.swift */; };
+		CE945CDC288EF88F0005D7A9 /* AutoRouteImageViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE945CDB288EF88F0005D7A9 /* AutoRouteImageViewModel.swift */; };
+		CE945CDE288EF97D0005D7A9 /* UITableView+ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE945CDD288EF97D0005D7A9 /* UITableView+ViewModel.swift */; };
+		CE945CE1288EFAA70005D7A9 /* UITableView+Reusable.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE945CE0288EFAA70005D7A9 /* UITableView+Reusable.swift */; };
+		CE945CE3288EFAC70005D7A9 /* Reusable.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE945CE2288EFAC70005D7A9 /* Reusable.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CA9B052A38247BF935BCD2B3 /* Pods-Trip.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Trip.debug.xcconfig"; path = "Target Support Files/Pods-Trip/Pods-Trip.debug.xcconfig"; sourceTree = "<group>"; };
+		CC2F8F5CE5D3EF7684315673 /* Pods-Trip.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Trip.release.xcconfig"; path = "Target Support Files/Pods-Trip/Pods-Trip.release.xcconfig"; sourceTree = "<group>"; };
 		CE945CA2288EE8F40005D7A9 /* Trip.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Trip.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE945CA5288EE8F40005D7A9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		CE945CA9288EE8F40005D7A9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CE945CA9288EE8F40005D7A9 /* AutoRouteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutoRouteViewController.swift; sourceTree = "<group>"; };
 		CE945CAE288EE8F70005D7A9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CE945CB1288EE8F70005D7A9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CE945CB3288EE8F70005D7A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE945CBD288EEFE70005D7A9 /* AnyCellViewModelProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnyCellViewModelProtocol.swift; sourceTree = "<group>"; };
+		CE945CBE288EEFE70005D7A9 /* TableViewCellModelProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewCellModelProtocol.swift; sourceTree = "<group>"; };
+		CE945CC0288EEFE70005D7A9 /* Montserrat-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Medium.ttf"; sourceTree = "<group>"; };
+		CE945CC1288EEFE70005D7A9 /* Montserrat-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Bold.ttf"; sourceTree = "<group>"; };
+		CE945CC2288EEFE70005D7A9 /* Montserrat-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-SemiBold.ttf"; sourceTree = "<group>"; };
+		CE945CC3288EEFE70005D7A9 /* Montserrat-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-ExtraBold.ttf"; sourceTree = "<group>"; };
+		CE945CC4288EEFE70005D7A9 /* Montserrat-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Black.ttf"; sourceTree = "<group>"; };
+		CE945CC5288EEFE70005D7A9 /* Montserrat-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Regular.ttf"; sourceTree = "<group>"; };
+		CE945CC8288EEFE70005D7A9 /* UIColor + hex.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor + hex.swift"; sourceTree = "<group>"; };
+		CE945CC9288EEFE70005D7A9 /* Colors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		CE945CD7288EF16A0005D7A9 /* AutoRouteViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutoRouteViewModel.swift; sourceTree = "<group>"; };
+		CE945CD9288EF1DA0005D7A9 /* AutoRouteImageViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutoRouteImageViewCell.swift; sourceTree = "<group>"; };
+		CE945CDB288EF88F0005D7A9 /* AutoRouteImageViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AutoRouteImageViewModel.swift; sourceTree = "<group>"; };
+		CE945CDD288EF97D0005D7A9 /* UITableView+ViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITableView+ViewModel.swift"; sourceTree = "<group>"; };
+		CE945CE0288EFAA70005D7A9 /* UITableView+Reusable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITableView+Reusable.swift"; sourceTree = "<group>"; };
+		CE945CE2288EFAC70005D7A9 /* Reusable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Reusable.swift; sourceTree = "<group>"; };
+		FDDAD5A59AF9B92C126192F9 /* Pods_Trip.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Trip.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -27,17 +63,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				426DA0BB4872053BD884ECA4 /* Pods_Trip.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		156DFB2C7CD5BD7AF14C2A5D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CA9B052A38247BF935BCD2B3 /* Pods-Trip.debug.xcconfig */,
+				CC2F8F5CE5D3EF7684315673 /* Pods-Trip.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		1F8AD8627AFEA2EF840EADFB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FDDAD5A59AF9B92C126192F9 /* Pods_Trip.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		CE945C99288EE8F40005D7A9 = {
 			isa = PBXGroup;
 			children = (
 				CE945CA4288EE8F40005D7A9 /* Trip */,
 				CE945CA3288EE8F40005D7A9 /* Products */,
+				156DFB2C7CD5BD7AF14C2A5D /* Pods */,
+				1F8AD8627AFEA2EF840EADFB /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -53,12 +109,84 @@
 			isa = PBXGroup;
 			children = (
 				CE945CA5288EE8F40005D7A9 /* AppDelegate.swift */,
-				CE945CA9288EE8F40005D7A9 /* ViewController.swift */,
+				CE945CB9288EEE240005D7A9 /* Modules */,
+				CE945CBB288EEFE70005D7A9 /* Resources */,
+				CE945CDF288EF9800005D7A9 /* Extension */,
 				CE945CAE288EE8F70005D7A9 /* Assets.xcassets */,
 				CE945CB0288EE8F70005D7A9 /* LaunchScreen.storyboard */,
 				CE945CB3288EE8F70005D7A9 /* Info.plist */,
 			);
 			path = Trip;
+			sourceTree = "<group>";
+		};
+		CE945CB9288EEE240005D7A9 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				CE945CBA288EEE3A0005D7A9 /* AutoRoute */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		CE945CBA288EEE3A0005D7A9 /* AutoRoute */ = {
+			isa = PBXGroup;
+			children = (
+				CE945CD9288EF1DA0005D7A9 /* AutoRouteImageViewCell.swift */,
+				CE945CDB288EF88F0005D7A9 /* AutoRouteImageViewModel.swift */,
+				CE945CA9288EE8F40005D7A9 /* AutoRouteViewController.swift */,
+				CE945CD7288EF16A0005D7A9 /* AutoRouteViewModel.swift */,
+			);
+			path = AutoRoute;
+			sourceTree = "<group>";
+		};
+		CE945CBB288EEFE70005D7A9 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				CE945CBC288EEFE70005D7A9 /* AnyCell */,
+				CE945CBF288EEFE70005D7A9 /* Fonts */,
+				CE945CC6288EEFE70005D7A9 /* Helpers */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		CE945CBC288EEFE70005D7A9 /* AnyCell */ = {
+			isa = PBXGroup;
+			children = (
+				CE945CBD288EEFE70005D7A9 /* AnyCellViewModelProtocol.swift */,
+				CE945CBE288EEFE70005D7A9 /* TableViewCellModelProtocol.swift */,
+			);
+			path = AnyCell;
+			sourceTree = "<group>";
+		};
+		CE945CBF288EEFE70005D7A9 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				CE945CC0288EEFE70005D7A9 /* Montserrat-Medium.ttf */,
+				CE945CC1288EEFE70005D7A9 /* Montserrat-Bold.ttf */,
+				CE945CC2288EEFE70005D7A9 /* Montserrat-SemiBold.ttf */,
+				CE945CC3288EEFE70005D7A9 /* Montserrat-ExtraBold.ttf */,
+				CE945CC4288EEFE70005D7A9 /* Montserrat-Black.ttf */,
+				CE945CC5288EEFE70005D7A9 /* Montserrat-Regular.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		CE945CC6288EEFE70005D7A9 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				CE945CC8288EEFE70005D7A9 /* UIColor + hex.swift */,
+				CE945CC9288EEFE70005D7A9 /* Colors.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		CE945CDF288EF9800005D7A9 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				CE945CE0288EFAA70005D7A9 /* UITableView+Reusable.swift */,
+				CE945CDD288EF97D0005D7A9 /* UITableView+ViewModel.swift */,
+				CE945CE2288EFAC70005D7A9 /* Reusable.swift */,
+			);
+			path = Extension;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -68,9 +196,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CE945CB6288EE8F70005D7A9 /* Build configuration list for PBXNativeTarget "Trip" */;
 			buildPhases = (
+				5194D6D2BFB902BD064F786A /* [CP] Check Pods Manifest.lock */,
 				CE945C9E288EE8F40005D7A9 /* Sources */,
 				CE945C9F288EE8F40005D7A9 /* Frameworks */,
 				CE945CA0288EE8F40005D7A9 /* Resources */,
+				9BECC1ECC3707344C32C3631 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -119,20 +249,78 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE945CD2288EEFE70005D7A9 /* Montserrat-Regular.ttf in Resources */,
+				CE945CCE288EEFE70005D7A9 /* Montserrat-Bold.ttf in Resources */,
+				CE945CD1288EEFE70005D7A9 /* Montserrat-Black.ttf in Resources */,
+				CE945CD0288EEFE70005D7A9 /* Montserrat-ExtraBold.ttf in Resources */,
 				CE945CB2288EE8F70005D7A9 /* LaunchScreen.storyboard in Resources */,
+				CE945CCD288EEFE70005D7A9 /* Montserrat-Medium.ttf in Resources */,
 				CE945CAF288EE8F70005D7A9 /* Assets.xcassets in Resources */,
+				CE945CCF288EEFE70005D7A9 /* Montserrat-SemiBold.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5194D6D2BFB902BD064F786A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Trip-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9BECC1ECC3707344C32C3631 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Trip/Pods-Trip-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Trip/Pods-Trip-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Trip/Pods-Trip-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		CE945C9E288EE8F40005D7A9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CE945CAA288EE8F40005D7A9 /* ViewController.swift in Sources */,
+				CE945CE3288EFAC70005D7A9 /* Reusable.swift in Sources */,
+				CE945CDA288EF1DA0005D7A9 /* AutoRouteImageViewCell.swift in Sources */,
+				CE945CAA288EE8F40005D7A9 /* AutoRouteViewController.swift in Sources */,
+				CE945CCB288EEFE70005D7A9 /* AnyCellViewModelProtocol.swift in Sources */,
+				CE945CD8288EF16A0005D7A9 /* AutoRouteViewModel.swift in Sources */,
+				CE945CE1288EFAA70005D7A9 /* UITableView+Reusable.swift in Sources */,
+				CE945CD5288EEFE70005D7A9 /* Colors.swift in Sources */,
+				CE945CCC288EEFE70005D7A9 /* TableViewCellModelProtocol.swift in Sources */,
 				CE945CA6288EE8F40005D7A9 /* AppDelegate.swift in Sources */,
+				CE945CDC288EF88F0005D7A9 /* AutoRouteImageViewModel.swift in Sources */,
+				CE945CDE288EF97D0005D7A9 /* UITableView+ViewModel.swift in Sources */,
+				CE945CD4288EEFE70005D7A9 /* UIColor + hex.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -266,6 +454,7 @@
 		};
 		CE945CB7288EE8F70005D7A9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CA9B052A38247BF935BCD2B3 /* Pods-Trip.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -295,6 +484,7 @@
 		};
 		CE945CB8288EE8F70005D7A9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CC2F8F5CE5D3EF7684315673 /* Pods-Trip.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
