@@ -15,7 +15,10 @@ class AutoRouteViewController: UIViewController {
         tableView.bounces = true
         tableView.keyboardDismissMode = .onDrag
         tableView.delaysContentTouches = false
-        tableView.registerCells(withModels: AutoRouteImageViewModel.self)
+        tableView.registerCells(withModels: ImageAutoRouteViewModel.self,
+                                DescriptionAutoRouteViewModel.self,
+                                MapAutoRouteViewModel.self,
+                                PaidFeaturesViewModel.self)
         return tableView
     }()
 
@@ -60,7 +63,8 @@ class AutoRouteViewController: UIViewController {
         view.addSubview(tableView)
 
         tableView.snp.makeConstraints { make in
-            make.edges.equalToSuperview()
+            make.top.equalTo(view.safeAreaInsets.top)
+            make.left.bottom.trailing.equalToSuperview()
         }
     }
 }

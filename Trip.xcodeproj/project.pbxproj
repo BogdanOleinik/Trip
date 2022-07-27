@@ -23,11 +23,19 @@
 		CE945CD4288EEFE70005D7A9 /* UIColor + hex.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE945CC8288EEFE70005D7A9 /* UIColor + hex.swift */; };
 		CE945CD5288EEFE70005D7A9 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE945CC9288EEFE70005D7A9 /* Colors.swift */; };
 		CE945CD8288EF16A0005D7A9 /* AutoRouteViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE945CD7288EF16A0005D7A9 /* AutoRouteViewModel.swift */; };
-		CE945CDA288EF1DA0005D7A9 /* AutoRouteImageViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE945CD9288EF1DA0005D7A9 /* AutoRouteImageViewCell.swift */; };
-		CE945CDC288EF88F0005D7A9 /* AutoRouteImageViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE945CDB288EF88F0005D7A9 /* AutoRouteImageViewModel.swift */; };
+		CE945CDA288EF1DA0005D7A9 /* ImageAutoRouteViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE945CD9288EF1DA0005D7A9 /* ImageAutoRouteViewCell.swift */; };
+		CE945CDC288EF88F0005D7A9 /* ImageAutoRouteViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE945CDB288EF88F0005D7A9 /* ImageAutoRouteViewModel.swift */; };
 		CE945CDE288EF97D0005D7A9 /* UITableView+ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE945CDD288EF97D0005D7A9 /* UITableView+ViewModel.swift */; };
 		CE945CE1288EFAA70005D7A9 /* UITableView+Reusable.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE945CE0288EFAA70005D7A9 /* UITableView+Reusable.swift */; };
 		CE945CE3288EFAC70005D7A9 /* Reusable.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE945CE2288EFAC70005D7A9 /* Reusable.swift */; };
+		CE945CE928913FCF0005D7A9 /* DescriptionAutoRouteViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE945CE828913FCF0005D7A9 /* DescriptionAutoRouteViewCell.swift */; };
+		CE945CEB289141420005D7A9 /* DescriptionAutoRouteViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE945CEA289141420005D7A9 /* DescriptionAutoRouteViewModel.swift */; };
+		CE945CED289143C10005D7A9 /* UIFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE945CEC289143C10005D7A9 /* UIFont.swift */; };
+		CE945CEF289145740005D7A9 /* UIView+AddSubviews.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE945CEE289145740005D7A9 /* UIView+AddSubviews.swift */; };
+		CE945CF1289151DE0005D7A9 /* MapAutoRouteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE945CF0289151DE0005D7A9 /* MapAutoRouteViewController.swift */; };
+		CE945CF3289152520005D7A9 /* MapAutoRouteViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE945CF2289152520005D7A9 /* MapAutoRouteViewModel.swift */; };
+		CED6541B28919FE60003CF03 /* PaidFeaturesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED6541A28919FE60003CF03 /* PaidFeaturesViewController.swift */; };
+		CED6541D2891A0240003CF03 /* PaidFeaturesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED6541C2891A0240003CF03 /* PaidFeaturesViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -50,11 +58,19 @@
 		CE945CC8288EEFE70005D7A9 /* UIColor + hex.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor + hex.swift"; sourceTree = "<group>"; };
 		CE945CC9288EEFE70005D7A9 /* Colors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
 		CE945CD7288EF16A0005D7A9 /* AutoRouteViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutoRouteViewModel.swift; sourceTree = "<group>"; };
-		CE945CD9288EF1DA0005D7A9 /* AutoRouteImageViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutoRouteImageViewCell.swift; sourceTree = "<group>"; };
-		CE945CDB288EF88F0005D7A9 /* AutoRouteImageViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AutoRouteImageViewModel.swift; sourceTree = "<group>"; };
+		CE945CD9288EF1DA0005D7A9 /* ImageAutoRouteViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageAutoRouteViewCell.swift; sourceTree = "<group>"; };
+		CE945CDB288EF88F0005D7A9 /* ImageAutoRouteViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageAutoRouteViewModel.swift; sourceTree = "<group>"; };
 		CE945CDD288EF97D0005D7A9 /* UITableView+ViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITableView+ViewModel.swift"; sourceTree = "<group>"; };
 		CE945CE0288EFAA70005D7A9 /* UITableView+Reusable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITableView+Reusable.swift"; sourceTree = "<group>"; };
 		CE945CE2288EFAC70005D7A9 /* Reusable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Reusable.swift; sourceTree = "<group>"; };
+		CE945CE828913FCF0005D7A9 /* DescriptionAutoRouteViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DescriptionAutoRouteViewCell.swift; sourceTree = "<group>"; };
+		CE945CEA289141420005D7A9 /* DescriptionAutoRouteViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DescriptionAutoRouteViewModel.swift; sourceTree = "<group>"; };
+		CE945CEC289143C10005D7A9 /* UIFont.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIFont.swift; sourceTree = "<group>"; };
+		CE945CEE289145740005D7A9 /* UIView+AddSubviews.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+AddSubviews.swift"; sourceTree = "<group>"; };
+		CE945CF0289151DE0005D7A9 /* MapAutoRouteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapAutoRouteViewController.swift; sourceTree = "<group>"; };
+		CE945CF2289152520005D7A9 /* MapAutoRouteViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapAutoRouteViewModel.swift; sourceTree = "<group>"; };
+		CED6541A28919FE60003CF03 /* PaidFeaturesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaidFeaturesViewController.swift; sourceTree = "<group>"; };
+		CED6541C2891A0240003CF03 /* PaidFeaturesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaidFeaturesViewModel.swift; sourceTree = "<group>"; };
 		FDDAD5A59AF9B92C126192F9 /* Pods_Trip.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Trip.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -130,8 +146,14 @@
 		CE945CBA288EEE3A0005D7A9 /* AutoRoute */ = {
 			isa = PBXGroup;
 			children = (
-				CE945CD9288EF1DA0005D7A9 /* AutoRouteImageViewCell.swift */,
-				CE945CDB288EF88F0005D7A9 /* AutoRouteImageViewModel.swift */,
+				CE945CD9288EF1DA0005D7A9 /* ImageAutoRouteViewCell.swift */,
+				CE945CDB288EF88F0005D7A9 /* ImageAutoRouteViewModel.swift */,
+				CE945CE828913FCF0005D7A9 /* DescriptionAutoRouteViewCell.swift */,
+				CE945CEA289141420005D7A9 /* DescriptionAutoRouteViewModel.swift */,
+				CE945CF0289151DE0005D7A9 /* MapAutoRouteViewController.swift */,
+				CE945CF2289152520005D7A9 /* MapAutoRouteViewModel.swift */,
+				CED6541A28919FE60003CF03 /* PaidFeaturesViewController.swift */,
+				CED6541C2891A0240003CF03 /* PaidFeaturesViewModel.swift */,
 				CE945CA9288EE8F40005D7A9 /* AutoRouteViewController.swift */,
 				CE945CD7288EF16A0005D7A9 /* AutoRouteViewModel.swift */,
 			);
@@ -173,6 +195,7 @@
 		CE945CC6288EEFE70005D7A9 /* Helpers */ = {
 			isa = PBXGroup;
 			children = (
+				CE945CEC289143C10005D7A9 /* UIFont.swift */,
 				CE945CC8288EEFE70005D7A9 /* UIColor + hex.swift */,
 				CE945CC9288EEFE70005D7A9 /* Colors.swift */,
 			);
@@ -182,6 +205,7 @@
 		CE945CDF288EF9800005D7A9 /* Extension */ = {
 			isa = PBXGroup;
 			children = (
+				CE945CEE289145740005D7A9 /* UIView+AddSubviews.swift */,
 				CE945CE0288EFAA70005D7A9 /* UITableView+Reusable.swift */,
 				CE945CDD288EF97D0005D7A9 /* UITableView+ViewModel.swift */,
 				CE945CE2288EFAC70005D7A9 /* Reusable.swift */,
@@ -310,15 +334,23 @@
 			buildActionMask = 2147483647;
 			files = (
 				CE945CE3288EFAC70005D7A9 /* Reusable.swift in Sources */,
-				CE945CDA288EF1DA0005D7A9 /* AutoRouteImageViewCell.swift in Sources */,
+				CE945CDA288EF1DA0005D7A9 /* ImageAutoRouteViewCell.swift in Sources */,
+				CE945CEB289141420005D7A9 /* DescriptionAutoRouteViewModel.swift in Sources */,
 				CE945CAA288EE8F40005D7A9 /* AutoRouteViewController.swift in Sources */,
+				CE945CE928913FCF0005D7A9 /* DescriptionAutoRouteViewCell.swift in Sources */,
 				CE945CCB288EEFE70005D7A9 /* AnyCellViewModelProtocol.swift in Sources */,
+				CE945CF3289152520005D7A9 /* MapAutoRouteViewModel.swift in Sources */,
 				CE945CD8288EF16A0005D7A9 /* AutoRouteViewModel.swift in Sources */,
 				CE945CE1288EFAA70005D7A9 /* UITableView+Reusable.swift in Sources */,
+				CE945CEF289145740005D7A9 /* UIView+AddSubviews.swift in Sources */,
+				CE945CED289143C10005D7A9 /* UIFont.swift in Sources */,
+				CED6541D2891A0240003CF03 /* PaidFeaturesViewModel.swift in Sources */,
 				CE945CD5288EEFE70005D7A9 /* Colors.swift in Sources */,
+				CE945CF1289151DE0005D7A9 /* MapAutoRouteViewController.swift in Sources */,
 				CE945CCC288EEFE70005D7A9 /* TableViewCellModelProtocol.swift in Sources */,
 				CE945CA6288EE8F40005D7A9 /* AppDelegate.swift in Sources */,
-				CE945CDC288EF88F0005D7A9 /* AutoRouteImageViewModel.swift in Sources */,
+				CE945CDC288EF88F0005D7A9 /* ImageAutoRouteViewModel.swift in Sources */,
+				CED6541B28919FE60003CF03 /* PaidFeaturesViewController.swift in Sources */,
 				CE945CDE288EF97D0005D7A9 /* UITableView+ViewModel.swift in Sources */,
 				CE945CD4288EEFE70005D7A9 /* UIColor + hex.swift in Sources */,
 			);
