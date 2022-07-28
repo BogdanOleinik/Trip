@@ -3,6 +3,8 @@ import SnapKit
 
 final class DescriptionAutoRouteViewCell: UITableViewCell {
 
+    // MARK: - Private Properties
+    
     private let titleRoute: UILabel = {
         let label = UILabel()
         label.font = .montserratFontMedium(ofSize: 18)

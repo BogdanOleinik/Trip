@@ -2,11 +2,13 @@
 //import RxCocoa
 import SnapKit
 
-final class AutoRouteImageViewCell: UITableViewCell {
+final class ImageAutoRouteViewCell: UITableViewCell {
+
+    // MARK: - Private Properties
 
     private let routeImage: UIImageView = {
         let imageView = UIImageView()
-        imageView.contentMode = .scaleToFill
+        imageView.contentMode = .scaleAspectFill
         return imageView
     }()
 
@@ -39,7 +41,10 @@ final class AutoRouteImageViewCell: UITableViewCell {
         contentView.addSubview(routeImage)
 
         routeImage.snp.makeConstraints { make in
-            make.edges.equalToSuperview()
+            make.top.equalTo(self.safeAreaInsets.top)
+            make.left.bottom.trailing.equalToSuperview()
+            make.height.equalTo(303.0)
+            make.bottom.equalToSuperview()
         }
     }
 }

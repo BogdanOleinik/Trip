@@ -1,13 +1,21 @@
 import UIKit
 import SnapKit
 
-final class MapAutoRouteViewController: UITableViewCell {
+final class PaidFeaturesViewController: UITableViewCell {
 
-    private let mapImage: UIImageView = {
+    // MARK: - Private Properties
+    
+    private let container: UIView = {
+        let view = UIView()
+        view.backgroundColor = .lightGray
+        view.clipsToBounds = true
+        view.layer.cornerRadius = 10.0
+        return view
+    }()
+
+    private let paidImage: UIImageView = {
         let imageView = UIImageView()
         imageView.contentMode = .scaleToFill
-        imageView.clipsToBounds = true
-        imageView.layer.cornerRadius = 10.0
         return imageView
     }()
 
@@ -26,7 +34,7 @@ final class MapAutoRouteViewController: UITableViewCell {
     // MARK: - Public Properties
 
     func configure(image: UIImage?) {
-        mapImage.image = image
+        paidImage.image = image
     }
 
 
@@ -38,13 +46,22 @@ final class MapAutoRouteViewController: UITableViewCell {
     }
 
     private func setupConstraints() {
-        contentView.addSubviews([mapImage])
+        contentView.addSubview(container)
 
-        mapImage.snp.makeConstraints { make in
+        container.addSubviews([paidImage])
+
+        container.snp.makeConstraints { make in
             make.top.equalToSuperview().offset(20.0)
             make.left.right.equalToSuperview().inset(24.0)
             make.bottom.equalToSuperview()
-            make.height.equalTo(200.0)
+            make.height.equalTo(350.0)
+        }
+
+        paidImage.snp.makeConstraints { make in
+            make.centerX.equalTo(container.snp.centerX)
+            make.centerY.equalTo(container.snp.centerY)
+            make.width.equalTo(50.0)
+            make.height.equalTo(45.0)
         }
     }
 }

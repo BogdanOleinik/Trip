@@ -1,12 +1,15 @@
-//import RxSwift
-//import RxCocoa
+import UIKit
 import SnapKit
 
-final class ImageAutoRouteViewCell: UITableViewCell {
+final class MapAutoRouteViewController: UITableViewCell {
 
-    private let routeImage: UIImageView = {
+    // MARK: - Private Properties
+    
+    private let mapImage: UIImageView = {
         let imageView = UIImageView()
-        imageView.contentMode = .scaleAspectFill
+        imageView.contentMode = .scaleToFill
+        imageView.clipsToBounds = true
+        imageView.layer.cornerRadius = 10.0
         return imageView
     }()
 
@@ -25,8 +28,9 @@ final class ImageAutoRouteViewCell: UITableViewCell {
     // MARK: - Public Properties
 
     func configure(image: UIImage?) {
-        routeImage.image = image
+        mapImage.image = image
     }
+
 
     // MARK: - Private Properties
 
@@ -36,13 +40,13 @@ final class ImageAutoRouteViewCell: UITableViewCell {
     }
 
     private func setupConstraints() {
-        contentView.addSubview(routeImage)
+        contentView.addSubviews([mapImage])
 
-        routeImage.snp.makeConstraints { make in
-            make.top.equalTo(self.safeAreaInsets.top)
-            make.left.bottom.trailing.equalToSuperview()
-            make.height.equalTo(303.0)
+        mapImage.snp.makeConstraints { make in
+            make.top.equalToSuperview().offset(20.0)
+            make.left.right.equalToSuperview().inset(24.0)
             make.bottom.equalToSuperview()
+            make.height.equalTo(200.0)
         }
     }
 }
